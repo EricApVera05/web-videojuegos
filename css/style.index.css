@@ -18,3 +18,88 @@
 .titulos-juegos {
     text-align: center;
 }
+/* Estilos para el encabezado */
+header {
+    background-color: #292929;
+    color: white;
+    padding: 20px;
+  }
+  
+  /* Estilos para el título */
+  h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+  
+  /* Estilos para los juegos destacados */
+  .juegos-destacados {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .juegos-destacados a {
+    margin: 20px;
+    text-decoration: none;
+  }
+  
+  .juegos-destacados img {
+    width: 200px;
+    height: 300px;
+    border: 2px solid #292929;
+    box-shadow: 0px 0px 10px #292929;
+    transition: transform 0.2s;
+  }
+  
+  .juegos-destacados img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Estilos para el botón de compra */
+  button {
+    background-color: #292929;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background-color: #444444;
+  }
+  
+  /* Estilos para el pie de página */
+  footer {
+    background-color: #292929;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+/* Estilos para el título principal */
+
+.titulo-principal {
+    font-family: "Arial Black", sans-serif;
+    font-size: 36px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    margin: 0;
+    padding: 20px 0;
+    text-align: center;
+    background-image: url("fondo-titulo.jpg");
+    background-size: cover;
+  }
+/* Estilos para el cuerpo de la página */
+
+body {
+    background-image: url("../img/mandos_fondo.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+    
