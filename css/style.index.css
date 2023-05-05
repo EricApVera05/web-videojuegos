@@ -15,6 +15,7 @@
 	height: 200px;
 }
 
+
 .titulos-juegos {
     text-align: center;
 }
@@ -35,7 +36,7 @@ nav ul {
   margin: 0;
   padding: 0;
 }
-  
+
   /* Estilos para el título */
   h1 {
     margin: 0;
@@ -124,6 +125,18 @@ body {
     background-image: url("../img/fondo-web.jpg");
     background-size: cover;
     background-position: center;
+    margin: 0;
+  }
+  footer {
+    position:static;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 10px;
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
   }
   @media (max-width: 767px) {
     .row {
