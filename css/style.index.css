@@ -14,7 +14,10 @@
     width: 200px;
 	height: 200px;
 }
-
+a {
+	color: #fff;
+	text-decoration: none;
+}
 
 .titulos-juegos {
     text-align: center;
