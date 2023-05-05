@@ -102,4 +102,33 @@ body {
     background-size: cover;
     background-position: center;
   }
+  @media (max-width: 480px) {
+    /* Estilos para dispositivos móviles */
+    .row {
+      flex-direction: column;
+    }
     
+    .column-4, .column-3 {
+      width: 100%;
+    }
+    
+    .imagen {
+      width: 100%;
+      height: auto;
+    }
+    
+    .juegos-destacados img {
+      width: 100%;
+      height: 200px;
+    }
+    
+    button {
+      font-size: 16px;
+    }
+    
+    .titulo-principal {
+      font-size: 24px;
+      padding: 10px 0;
+    }
+  }
+  
