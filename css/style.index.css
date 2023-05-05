@@ -20,10 +20,21 @@
 }
 /* Estilos para el encabezado */
 header {
-    background-color: #292929;
-    color: white;
-    padding: 20px;
-  }
+	background-color: #000000;
+	padding: 20px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+}
+nav {
+  display: flex;
+  justify-content: flex;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
   
   /* Estilos para el título */
   h1 {
@@ -39,7 +50,7 @@ header {
   }
   
   .juegos-destacados a {
-    margin: 20px;
+    margin: 60px;
     text-decoration: none;
   }
   
@@ -54,6 +65,18 @@ header {
   .juegos-destacados img:hover {
     transform: scale(1.1);
   }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    color: #fff;
+  }
+  
+  li {
+    margin-right: 20px;
+  }
+  
   
   /* Estilos para el botón de compra */
   button {
@@ -98,37 +121,30 @@ header {
 /* Estilos para el cuerpo de la página */
 
 body {
-    background-image: url("../img/mandos_fondo.jpg");
+    background-image: url("../img/fondo-web.jpg");
     background-size: cover;
     background-position: center;
   }
-  @media (max-width: 480px) {
-    /* Estilos para dispositivos móviles */
+  @media (max-width: 767px) {
     .row {
-      flex-direction: column;
+      flex-wrap:wrap-reverse;
     }
-    
-    .column-4, .column-3 {
-      width: 100%;
+    .column-4 {
+      width: 50%;
     }
-    
+    .column-3 {
+      width: 50%;
+    }
     .imagen {
       width: 100%;
       height: auto;
     }
-    
-    .juegos-destacados img {
-      width: 100%;
-      height: 200px;
+    .juegos-destacados {
+      flex-direction: column;
     }
-    
-    button {
-      font-size: 16px;
-    }
-    
-    .titulo-principal {
-      font-size: 24px;
-      padding: 10px 0;
+    .juegos-destacados a {
+      margin: 10px 0;
     }
   }
+  
   
